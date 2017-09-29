@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 	private String Timer="180000";
 	//private String Timer="5000";
 
-
+// add for second Commit test for Gighub.
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
