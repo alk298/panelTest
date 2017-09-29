@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill"
+    android:orientation="vertical"
+   
+   
+    tools:context="com.example.paneltest.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:focusableInTouchMode="true"
+            android:onClick="trimble1"
+            android:scaleType="fitXY"
+            android:src="@drawable/trimble1" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:onClick="trimble2"
+            android:scaleType="fitXY"
+            android:src="@drawable/trimble2" />
+        
+         <ImageButton
+             android:id="@+id/imageButton3"
+             android:layout_width="250dp"
+             android:layout_height="150dp"
+             android:onClick="trimble3"
+             android:scaleType="fitXY"
+             android:src="@drawable/trimble3" />
+         
+          <ImageButton
+              android:id="@+id/imageButton4"
+              android:layout_width="250dp"
+              android:layout_height="150dp"
+              android:onClick="trimble4"
+              android:scaleType="fitXY"
+              android:src="@drawable/trimble4" />
+
+    </LinearLayout>
+    
+    
+    
+    
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:onClick="trimble5"
+            android:scaleType="fitXY"
+            android:src="@drawable/trimble5" />
+        
+         <ImageButton
+             android:id="@+id/imageButton6"
+             android:layout_width="250dp"
+             android:layout_height="150dp"
+             android:onClick="trimble6"
+             android:scaleType="fitXY"
+             android:src="@drawable/trimble6" />
+         
+          <ImageButton
+              android:id="@+id/imageButton7"
+              android:layout_width="250dp"
+              android:layout_height="150dp"
+              android:onClick="trimble7"
+              android:scaleType="fitXY"
+              android:src="@drawable/trimble7" />
+        
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:onClick="trimble8"
+            android:scaleType="fitXY"
+            android:src="@drawable/trimble8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+         <ImageButton
+             android:id="@+id/imageButton9"
+             android:layout_width="250dp"
+             android:layout_height="150dp"
+             android:onClick="trimble9"
+             android:scaleType="fitXY"
+             android:src="@drawable/trimble9" />
+         
+          <ImageButton
+              android:id="@+id/imageButton10"
+              android:layout_width="250dp"
+              android:layout_height="150dp"
+              android:onClick="trimble10"
+              android:scaleType="fitXY"
+              android:src="@drawable/panel" />
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+              <Button
+                  android:id="@+id/TimerSetting"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginTop="20dp"
+                  android:onClick="TimerSetting"
+                  android:text="TimerSetting (3min)"
+                  android:textSize="40sp" />
+
+              <TextView
+                  android:id="@+id/textView1"
+                  android:layout_width="419dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginTop="10dp"
+                  android:text="選一個靜置照片"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:textSize="40sp" />
+
+          </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

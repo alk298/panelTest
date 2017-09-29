@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paneltest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondPage"
+            android:label="@string/title_activity_second_page" >
+        </activity>
+        <activity
+            android:name=".Trimble1"
+            android:label="@string/title_activity_trimble1" >
+        </activity>
+        <activity
+            android:name=".TimerSetting"
+            android:label="@string/title_activity_timer_setting" >
+        </activity>
+        <activity
+            android:name=".CheckPanel"
+            android:label="@string/title_activity_check_panel" >
+        </activity>
+        <activity
+            android:name=".Trimble2"
+            android:label="@string/title_activity_trimble2" >
+        </activity>
+        <activity
+            android:name=".Trimble3"
+            android:label="@string/title_activity_trimble3" >
+        </activity>
+        <activity
+            android:name=".Trimble4"
+            android:label="@string/title_activity_trimble4" >
+        </activity>
+        <activity
+            android:name=".Trimble5"
+            android:label="@string/title_activity_trimble5" >
+        </activity>
+        <activity
+            android:name=".Trimble6"
+            android:label="@string/title_activity_trimble6" >
+        </activity>
+        <activity
+            android:name=".Trimble7"
+            android:label="@string/title_activity_trimble7" >
+        </activity>
+        <activity
+            android:name=".Trimble8"
+            android:label="@string/title_activity_trimble8" >
+        </activity>
+        <activity
+            android:name=".Trimble9"
+            android:label="@string/title_activity_trimble9" >
+        </activity>
+        <activity
+            android:name=".Trimble10"
+            android:label="@string/title_activity_trimble10" >
+        </activity>
+    </application>
+
+</manifest>

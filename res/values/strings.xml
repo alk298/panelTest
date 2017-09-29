@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PanelTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second_page">SecondPage</string>
+    <string name="title_activity_trimble1">Trimble1</string>
+    <string name="title_activity_timer_setting">TimerSetting</string>
+    <string name="title_activity_check_panel">CheckPanel</string>
+    <string name="title_activity_trimble2">Trimble2</string>
+    <string name="title_activity_trimble3">Trimble3</string>
+    <string name="title_activity_trimble4">Trimble4</string>
+    <string name="title_activity_trimble5">Trimble5</string>
+    <string name="title_activity_trimble6">Trimble6</string>
+    <string name="title_activity_trimble7">Trimble7</string>
+    <string name="title_activity_trimble8">Trimble8</string>
+    <string name="title_activity_trimble9">Trimble9</string>
+    <string name="title_activity_trimble10">Trimble10</string>
+
+</resources>
