@@ -18,7 +18,7 @@ public class Trimble1 extends Activity {
 		super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE); 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-
+//Third Changed for commit to Githop
 
 	       requestWindowFeature(Window.FEATURE_NO_TITLE);
 		  setContentView(R.layout.activity_trimble1);
